@@ -47,147 +47,10 @@
           ),
         };
 
-        window.thunderboltTag = "QA_READY";
-        window.thunderboltVersion = "1.16094.0";
-      })();
-    </script>
-
-    <!-- Essential Viewer Model -->
-    <script type="application/json" id="wix-essential-viewer-model">
-      {
-        "fleetConfig": {
-          "fleetName": "thunderbolt-renderer-gradual",
-          "type": "Rollout",
-          "code": 1
-        },
-        "mode": {
-          "qa": false,
-          "enableTestApi": false,
-          "debug": false,
-          "ssrIndicator": false,
-          "ssrOnly": false,
-          "siteAssetsFallback": "enable",
-          "versionIndicator": false
-        },
-        "componentsLibrariesTopology": [
-          {
-            "artifactId": "editor-elements",
-            "namespace": "wixui",
-            "url": "https:\/\/static.parastorage.com\/services\/editor-elements\/1.14217.0"
-          },
-          {
-            "artifactId": "editor-elements",
-            "namespace": "dsgnsys",
-            "url": "https:\/\/static.parastorage.com\/services\/editor-elements\/1.14217.0"
-          }
-        ],
-        "siteFeaturesConfigs": {
-          "sessionManager": { "isRunningInDifferentSiteContext": false }
-        },
-        "language": { "userLanguage": "es" },
-        "siteAssets": {
-          "clientTopology": {
-            "mediaRootUrl": "https:\/\/static.wixstatic.com",
-            "staticMediaUrl": "https:\/\/static.wixstatic.com\/media",
-            "moduleRepoUrl": "https:\/\/static.parastorage.com\/unpkg",
-            "fileRepoUrl": "https:\/\/static.parastorage.com\/services",
-            "siteAssetsUrl": "https:\/\/siteassets.parastorage.com",
-            "pageJsonServerUrls": [
-              "https:\/\/pages.parastorage.com",
-              "https:\/\/staticorigin.wixstatic.com",
-              "https:\/\/fallback.wix.com\/wix-html-editor-pages-webapp\/page"
-            ],
-            "pathOfTBModulesInFileRepoForFallback": "wix-thunderbolt\/dist\/"
+        // ...existing code...
           }
         },
-        "siteFeatures": [
-          "appMonitoring",
-          "assetsLoader",
-          "businessLogger",
-          "captcha",
-          "clickHandlerRegistrar",
-          "commonConfig",
-          "componentsLoader",
-          "componentsRegistry",
-          "consentPolicy",
-          "contentReflow",
-          "cyclicTabbing",
-          "environmentWixCodeSdk",
-          "environment",
-          "locationWixCodeSdk",
-          "mpaNavigation",
-          "navigationManager",
-          "navigationPhases",
-          "ooi",
-          "pages",
-          "panorama",
-          "renderer",
-          "reporter",
-          "router",
-          "scrollRestoration",
-          "seoWixCodeSdk",
-          "seo",
-          "sessionManager",
-          "siteMembersWixCodeSdk",
-          "siteMembers",
-          "siteScrollBlocker",
-          "siteWixCodeSdk",
-          "speculationRules",
-          "ssrCache",
-          "stores",
-          "structureApi",
-          "thunderboltInitializer",
-          "tpaCommons",
-          "translations",
-          "usedPlatformApis",
-          "warmupData",
-          "windowMessageRegistrar",
-          "windowWixCodeSdk",
-          "wixCustomElementComponent",
-          "wixEmbedsApi",
-          "componentsReact",
-          "platform"
-        ],
-        "site": {
-          "externalBaseUrl": "https:\/\/pablo9012.wixsite.com\/website",
-          "isSEO": false
-        },
-        "media": {
-          "staticMediaUrl": "https:\/\/static.wixstatic.com\/media",
-          "mediaRootUrl": "https:\/\/static.wixstatic.com\/",
-          "staticVideoUrl": "https:\/\/video.wixstatic.com\/"
-        },
-        "requestUrl": "https:\/\/pablo9012.wixsite.com\/website",
-        "rollout": {
-          "siteAssetsVersionsRollout": false,
-          "isDACRollout": 0,
-          "isTBRollout": true
-        },
-        "commonConfig": {
-          "brand": "wix",
-          "host": "VIEWER",
-          "bsi": "",
-          "consentPolicy": {},
-          "consentPolicyHeader": {},
-          "siteRevision": "438",
-          "renderingFlow": "NONE",
-          "language": "es",
-          "locale": "es-cl"
-        },
-        "interactionSampleRatio": 0.01,
-        "dynamicModelUrl": "https:\/\/pablo9012.wixsite.com\/website\/_api\/v2\/dynamicmodel",
-        "accessTokensUrl": "https:\/\/pablo9012.wixsite.com\/website\/_api\/v1\/access-tokens",
-        "isExcludedFromSecurityExperiments": true,
-        "experiments": {
-          "specs.thunderbolt.hardenFetchAndXHR": true,
-          "specs.thunderbolt.hardenStringAndNumber": true
-        }
-      }
-    </script>
-    <script>
-      window.viewerModel = JSON.parse(
-        document.getElementById("wix-essential-viewer-model").textContent
-      );
+        // ...existing code...
     </script>
 
     <script>
@@ -20816,20 +20679,17 @@
     <!-- lodash script -->
     <script
       async=""
-      onload="resolveExternalsRegistryModule(&#39;lodash&#39;)"
       src="./Inicio _ Manon_files/lodash.min.js.descarga"
     ></script>
     <!-- react -->
     <script
       crossorigin=""
-      onload="resolveExternalsRegistryModule(&#39;react&#39;)"
       src="./Inicio _ Manon_files/react.production.min.js.descarga"
     ></script>
     <!-- react-dom -->
     <script
       crossorigin=""
       defer=""
-      onload="resolveExternalsRegistryModule(&#39;reactDOM&#39;)"
       src="./Inicio _ Manon_files/react-dom.production.min.js.descarga"
     ></script>
 
